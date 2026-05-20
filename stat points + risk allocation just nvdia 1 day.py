@@ -26,8 +26,8 @@ from alpaca.data.enums import DataFeed
 
 load_dotenv()
 
-ALPACA_API_KEY = "PKM3RUGOA73C4GZRROOHDUAD3O"
-ALPACA_SECRET_KEY = "3XWcxHYxBP5Xqox4YgRBEi5BqhtfNshiW3ZyMnw8BbyS"
+ALPACA_API_KEY = ""
+ALPACA_SECRET_KEY = ""
 
 if not ALPACA_API_KEY or not ALPACA_SECRET_KEY:
     raise ValueError(
